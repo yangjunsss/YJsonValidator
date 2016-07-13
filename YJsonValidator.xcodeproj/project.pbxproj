@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3BD34C1D3261C300FDB7FA /* YJsonValidator.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BD34B1D3261C300FDB7FA /* YJsonValidator.xcscheme */; };
+		0C3BD34F1D3261C300FDB7FA /* YJsonValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BD34E1D3261C300FDB7FA /* YJsonValidator.m */; };
+		0C3BD3581D32623C00FDB7FA /* json1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BD3571D32623C00FDB7FA /* json1.json */; };
+		0CB5581D1D362C3A002CAC55 /* NSObject+Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5581C1D362C3A002CAC55 /* NSObject+Plugin.m */; };
+		0CB558221D36336B002CAC55 /* SharedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB558201D36336B002CAC55 /* SharedXcode.m */; };
+		0CB558291D363902002CAC55 /* uninstall.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0CB558271D363902002CAC55 /* uninstall.sh */; };
+		0CB5582A1D363902002CAC55 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0CB558281D363902002CAC55 /* install.sh */; };
+		0CB5582D1D36390B002CAC55 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0CB5582B1D36390B002CAC55 /* LICENSE */; };
+		0CB5582E1D36390B002CAC55 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5582C1D36390B002CAC55 /* README.md */; };
+		0CB558301D36394C002CAC55 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB558241D3638D6002CAC55 /* DVTFoundation.framework */; };
+		0CB558311D36394C002CAC55 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB558231D3638C4002CAC55 /* DVTKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3BD3471D3261C300FDB7FA /* YJsonValidator.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJsonValidator.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3BD34B1D3261C300FDB7FA /* YJsonValidator.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = YJsonValidator.xcscheme; path = YJsonValidator.xcodeproj/xcshareddata/xcschemes/YJsonValidator.xcscheme; sourceTree = SOURCE_ROOT; };
+		0C3BD34D1D3261C300FDB7FA /* YJsonValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJsonValidator.h; sourceTree = "<group>"; };
+		0C3BD34E1D3261C300FDB7FA /* YJsonValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJsonValidator.m; sourceTree = "<group>"; };
+		0C3BD3501D3261C300FDB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3BD3571D32623C00FDB7FA /* json1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1.json; sourceTree = "<group>"; };
+		0CB5581B1D362C3A002CAC55 /* NSObject+Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Plugin.h"; sourceTree = "<group>"; };
+		0CB5581C1D362C3A002CAC55 /* NSObject+Plugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Plugin.m"; sourceTree = "<group>"; };
+		0CB5581F1D36336B002CAC55 /* SharedXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedXcode.h; sourceTree = "<group>"; };
+		0CB558201D36336B002CAC55 /* SharedXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedXcode.m; sourceTree = "<group>"; };
+		0CB558211D36336B002CAC55 /* xprivates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xprivates.h; sourceTree = "<group>"; };
+		0CB558231D3638C4002CAC55 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		0CB558241D3638D6002CAC55 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		0CB558271D363902002CAC55 /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uninstall.sh; sourceTree = "<group>"; };
+		0CB558281D363902002CAC55 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		0CB5582B1D36390B002CAC55 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CB5582C1D36390B002CAC55 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB5582F1D36393B002CAC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB558301D36394C002CAC55 /* DVTFoundation.framework in Frameworks */,
+				0CB558311D36394C002CAC55 /* DVTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3BD33F1D3261C300FDB7FA = {
+			isa = PBXGroup;
+			children = (
+				0CB558271D363902002CAC55 /* uninstall.sh */,
+				0CB558281D363902002CAC55 /* install.sh */,
+				0CB5582B1D36390B002CAC55 /* LICENSE */,
+				0CB5582C1D36390B002CAC55 /* README.md */,
+				0CB558241D3638D6002CAC55 /* DVTFoundation.framework */,
+				0CB558231D3638C4002CAC55 /* DVTKit.framework */,
+				0C3BD3491D3261C300FDB7FA /* YJsonValidator */,
+				0C3BD3481D3261C300FDB7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C3BD3481D3261C300FDB7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BD3471D3261C300FDB7FA /* YJsonValidator.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C3BD3491D3261C300FDB7FA /* YJsonValidator */ = {
+			isa = PBXGroup;
+			children = (
+				0CB5581E1D36336B002CAC55 /* Xcode */,
+				0C3BD3561D3261F800FDB7FA /* jsonTestCases */,
+				0C3BD34D1D3261C300FDB7FA /* YJsonValidator.h */,
+				0C3BD34E1D3261C300FDB7FA /* YJsonValidator.m */,
+				0CB5581B1D362C3A002CAC55 /* NSObject+Plugin.h */,
+				0CB5581C1D362C3A002CAC55 /* NSObject+Plugin.m */,
+				0C3BD3501D3261C300FDB7FA /* Info.plist */,
+				0C3BD34A1D3261C300FDB7FA /* Supporting Files */,
+			);
+			path = YJsonValidator;
+			sourceTree = "<group>";
+		};
+		0C3BD34A1D3261C300FDB7FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BD34B1D3261C300FDB7FA /* YJsonValidator.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C3BD3561D3261F800FDB7FA /* jsonTestCases */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BD3571D32623C00FDB7FA /* json1.json */,
+			);
+			path = jsonTestCases;
+			sourceTree = "<group>";
+		};
+		0CB5581E1D36336B002CAC55 /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				0CB5581F1D36336B002CAC55 /* SharedXcode.h */,
+				0CB558201D36336B002CAC55 /* SharedXcode.m */,
+				0CB558211D36336B002CAC55 /* xprivates.h */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3BD3461D3261C300FDB7FA /* YJsonValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3BD3531D3261C300FDB7FA /* Build configuration list for PBXNativeTarget "YJsonValidator" */;
+			buildPhases = (
+				0C3BD3441D3261C300FDB7FA /* Sources */,
+				0C3BD3451D3261C300FDB7FA /* Resources */,
+				0CB5582F1D36393B002CAC55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJsonValidator;
+			productName = YJsonValidator;
+			productReference = 0C3BD3471D3261C300FDB7FA /* YJsonValidator.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C3BD3401D3261C300FDB7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					0C3BD3461D3261C300FDB7FA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C3BD3431D3261C300FDB7FA /* Build configuration list for PBXProject "YJsonValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C3BD33F1D3261C300FDB7FA;
+			productRefGroup = 0C3BD3481D3261C300FDB7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3BD3461D3261C300FDB7FA /* YJsonValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C3BD3451D3261C300FDB7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB558291D363902002CAC55 /* uninstall.sh in Resources */,
+				0C3BD34C1D3261C300FDB7FA /* YJsonValidator.xcscheme in Resources */,
+				0CB5582A1D363902002CAC55 /* install.sh in Resources */,
+				0C3BD3581D32623C00FDB7FA /* json1.json in Resources */,
+				0CB5582D1D36390B002CAC55 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3BD3441D3261C300FDB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB5581D1D362C3A002CAC55 /* NSObject+Plugin.m in Sources */,
+				0CB558221D36336B002CAC55 /* SharedXcode.m in Sources */,
+				0CB5582E1D36390B002CAC55 /* README.md in Sources */,
+				0C3BD34F1D3261C300FDB7FA /* YJsonValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C3BD3511D3261C300FDB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C3BD3521D3261C300FDB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C3BD3541D3261C300FDB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = YJsonValidator/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yangjunsss.YJsonValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0C3BD3551D3261C300FDB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = YJsonValidator/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yangjunsss.YJsonValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3BD3431D3261C300FDB7FA /* Build configuration list for PBXProject "YJsonValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3BD3511D3261C300FDB7FA /* Debug */,
+				0C3BD3521D3261C300FDB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3BD3531D3261C300FDB7FA /* Build configuration list for PBXNativeTarget "YJsonValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3BD3541D3261C300FDB7FA /* Debug */,
+				0C3BD3551D3261C300FDB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C3BD3401D3261C300FDB7FA /* Project object */;
+}

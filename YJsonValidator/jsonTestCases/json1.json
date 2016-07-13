@@ -1,0 +1,56 @@
+{
+    "glossary": {
+        "title": "example glossary",
+        "GlossDiv": {
+            "title": "S",
+            "GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+                    "SortAs": "SGML",
+                    "GlossTerm": "Standard Generalized Markup Language",
+                    "Acronym": "SGML",
+                    "Abbrev": "ISO 8879:1986",
+                    "GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                        "GlossSeeAlso": ["GML", "XML"]
+                    },
+                    "GlossSee": "markup"
+                }
+            }
+        }
+    },
+    "jackie":{
+        "title": "Example Schema",
+        "type": "object",
+        "properties": {
+            "firstName": {
+                "type": "string"
+            },
+            "lastName": {
+                "type": "string"
+            },
+            "age": {
+                "description": "Age in years",
+                "type": "integer",
+                "minimum": 0
+            }
+        },
+        "required": ["firstName", "lastName"]
+    }
+    ,
+    "v1":false,
+    "v2":true,
+    "v3":null,
+    "v4":"string",
+    "v5":100,
+    "v6":["abc"],
+    "v7":1.1,
+    "v8":-32,
+    "v9":+32,
+    "v10":0,
+    "v11":10+e3,
+    "v12":\uD834,
+    "v13":"\uD834"
+    
+    
+}
