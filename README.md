@@ -1,6 +1,6 @@
 ##YJsonValidator ![img](https://travis-ci.org/yangjunsss/YJsonValidator.svg?branch=master)
 
-An Xcode plugin to validate json file when save,it can highlight the error charactor.
+An Xcode plugin to validate json file when save,it can highlight the error character.
 
 ## Usage
 
